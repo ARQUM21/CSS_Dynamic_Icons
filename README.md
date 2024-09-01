@@ -1,4 +1,4 @@
-# DynamicIcons
+# Dynamic_Icons
 
 **DynamicIcons** is a visually engaging and interactive icon grid project created using HTML and CSS. This project showcases a set of dynamic icons with hover effects and animations to create an eye-catching and modern design.
 
