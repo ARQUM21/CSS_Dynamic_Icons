@@ -1,0 +1,225 @@
+/* Center aligning text within box1 */
+div.box1 {
+    text-align: center;
+}
+
+/* Tiktok box styling */
+div.tiktok {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/* Hover effect for Tiktok box */
+div.tiktok:hover {
+    color: aliceblue;
+    background-color: black;
+}
+
+/* General icon styling */
+i {
+    font-size: 50px;
+    margin: 13px;
+}
+
+/* H4 tags styling */
+h4 {
+    margin: 0%;
+}
+
+/* Github box styling */
+div.github {  
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Github box */
+div.github:hover {
+    color: aliceblue;
+    background-color: purple;
+}
+
+/* YouTube box styling */
+div.youtube {    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for YouTube box */
+div.youtube:hover {
+    color: aliceblue;
+    background-color: red;
+}
+
+/* Center aligning text within box2 */
+div.box2 {
+    text-align: center;
+}
+
+/* Instagram box styling */
+div.Instagram {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Instagram box */
+div.Instagram:hover {
+    color: aliceblue;
+    background-color: palevioletred;
+}
+
+/* Facebook box styling */
+div.Facebook {    
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Facebook box */
+div.Facebook:hover {
+    color: aliceblue;
+    background-color: rgba(0, 85, 255, 0.799);
+}
+
+/* Twitter box styling */
+div.Twitter {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Twitter box */
+div.Twitter:hover {
+    color: aliceblue;
+    background-color: rgba(0, 85, 255, 0.799);
+}
+
+/* Center aligning text within box3 */
+div.box3 {
+    text-align: center;
+}
+
+/* Snapchat box styling */
+div.snapchat {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Snapchat box */
+div.snapchat:hover {
+    color: black;
+    background-color: yellow;
+}
+
+/* Message box styling */
+div.message {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Message box */
+div.message:hover {
+    color: aliceblue;
+    background-color: red;
+}
+
+/* Call box styling */
+div.call {
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: monospace;
+    height: 100px;
+    width: 100px;
+    box-shadow: 2px 2px 3px black;
+    margin: 8px;
+    display: inline-block;
+}
+
+/* Hover effect for Call box */
+div.call:hover {
+    color: aliceblue;
+    background-color: rgb(0, 128, 70);
+}
+
+/* Big container box styling with gradient background */
+div.bigbox {
+    background: linear-gradient(45deg, #d2001a, #7462ff, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px gray;
+    width: 400px;
+    margin: 20px auto;
+    padding: 100px;
+    border-radius: 10px;
+    display: flex;
+}
+
+/* Background color animation for the bigbox */
+@keyframes color {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
